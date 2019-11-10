@@ -1,0 +1,33 @@
+.image{
+    background-image: url("../src/assets/loja/1g.jpg");
+}
+
+
+.image_dois{
+    background-image: url("..src/assets/loja/2g.jpg");
+}
+
+.image_tres{
+    background-image: url("../src/assets/loja/3g.jpg");
+}
+
+.image_quatro{
+    background-image: url("../src/assets/loja/4g.jpg");
+}
+
+.image_cinco{
+    background-image: url("../src/assets/loja/5g.jpg");
+}
+
+.image_seis{
+    background-image: url("../src/assets/loja/6g.jpg");
+}
+
+
+
+
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #6c757d;
+}
