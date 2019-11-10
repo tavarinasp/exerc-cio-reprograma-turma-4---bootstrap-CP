@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Central Perk</title>
+     <link href="./style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Belleza&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar-expand-lg navbar sticky-top navbar-light" style="background-color: #6c757d;">
+    <a class="navbar-brand" href="#">Central Perk</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre o Central Perk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nossos Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Nossas Lojas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Fale conosco</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../src/assets/slide 2.jpg" alt="Primeiro Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../src/assets/slide 3.jpg" alt="Segundo Slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../src/assets/slide 1.jpg" alt="Terceiro Slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+      <section id="about" class="about">
+        <div class="container">
+
+            <blockquote class="blockquote text-center">
+                <div class="about-text">
+                    <h1>Central Perk</h1>
+                </div>
+            </blockquote>
+            <p class="blockqutote text-center" class= "lead" class= "mx-auto">
+              
+               Aquela cafeteria que ama muito ter você aqui. Sozinho(a), com amigos, com seu crush ou com seu pet. Para trabalhar, estudar, conversar ou só relaxar. Apenas se sinta em casa.
+               Central Perk é a extenção da sua sala, como na série Friends. A nossa cafeteria além de um cardápio com bebidas saborosas, temos uma variedade de doces e salgados para complementar aquele momento delicioso com a gente.
+               Temos um ambiente aconchegante e que te faz querer ficar por aqui o dia inteiro. Você irá ver muitas refêrencias da nossa série queridinha e maravilhosa em todas as partes. 
+               Então aproveite e se sinta em casa!
+              
+
+
+             
+              
+            </p>
+        </div>
+    </section>
+
+
+    <div class="container">
+    
+      <div class="card-deck">
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/card 5.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title"><strong>Conheça nossos produtos</strong></h5>
+
+                <img src="../src/assets/bebidas - cardapio/café.jpg" alt="..." class="img-thumbnail" class="float-right" style="max-width: 49%;">
+                <img src="../src/assets/doces - cardapio/comida - bolo frutas vermelhas - cardapio.jpg" alt="..." class="img-thumbnail" class="img-left" style="max-width: 49%;">
+                <img src="../src/assets/bebidas - cardapio/bebida - cha gelado - cardapio.jpg" alt="..." class="img-thumbnail" class="img-right" style="max-width: 49%;">
+                <img src="../src/assets/doces - cardapio/comida - brownie - cardapio.jpg" alt="..." class="img-thumbnail" class="img-left" style="max-width: 49%;">
+
+               <!-- Botão para acionar modal -->
+               <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#ModalLongoExemplo">Veja nossos produtos</button>
+
+  
+  
+  <!-- Modal -->
+  <div class="modal fade" id="ModalLongoExemplo" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="TituloModalLongoExemplo">Cardápio</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+  <section bebidas>
+        <div class="modal-body">
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/bebidas - cardapio/bebida - café - cardapio.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Aquele do cappuccino cremoso</h5>
+                <p class="card-text">Nosso cappuccino cremoso e saboroso, feito com muito carinho para lembrar que Ross e Chandler sempre voltaram para o nosso sofá.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/bebidas - cardapio/bebida - café 3 - cardapio.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Aquele do Cappuccino com caramelo</h5>
+                <p class="card-text"> Posso dizer que é uma das nossas bebidas queridinha, tão doce como a Rachel pensando no seus romances.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/bebidas - cardapio/bebida- cafe4 - cardapio.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Aquele do café</h5>
+                <p class="card-text">Este é nosso café tradicinal, aquele que Ganther é o responsavel pelo sabor delícioso.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-group">
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/bebidas - cardapio/cappuccino com canela e chocolate.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Aquele do Cappuccino com chocolate e canela</h5>
+                <p class="card-text">Se é duplinha de sabores que você querer?Então, toma! Nossa bebida com sabor que irá te fazer lembrar de Phoebe e sua irmã Ursula.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/bebidas - cardapio/cappuccino com caramelo.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Aquele do Cappuccino expresso</h5>
+                <p class="card-text">Esse cappuccino tem aquele gosto forte se você quiser ficar bem acordado para futuros trabalhos como o Joey.</p>
+              </div>
+            </div>
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/bebidas - cardapio/chocolate quente e panqueca.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Aquele do Chocolate quente cremoso</h5>
+                <p class="card-text">Nosso Chocolate quente é para aqueles momentos de frio e reunião com os amigos, quem sabe assistir um filme.</p>
+              </div>
+            </div>
+            <div class="card-group">
+              <div class="card">
+                <img class="card-img-top" src="../src/assets/bebidas - cardapio/smoothies - sucos.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Aqueles do Sucos/Smoothies</h5>
+                  <p class="card-text">Essa é pra você ter duas opções e uma grande energia. Não fique parado ai, Monica está chegando para te fazer exercitar.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../src/assets/bebidas - cardapio/tea green.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Título do card</h5>
+                  <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img class="card-img-top" src="../src/assets/bebidas - cardapio/vitamina.jpg" alt="Imagem de capa do card">
+                <div class="card-body">
+                  <h5 class="card-title">Aquele da Vitamina</h5>
+                  <p class="card-text">OH MY God! Alguém segura essa vitamina. Sim, ela tem frutas vermelhas, </p>
+                </div>
+              </div>
+            </div>
+            <div class="card-group">
+                <div class="card">
+                  <img class="card-img-top" src="../src/assets/bebidas - cardapio/bebida de cereal.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">Aquela da bebida de Cereal</h5>
+                    <p class="card-text">Essa é pra você ter duas opções e uma grande energia. Não fique parado ai, Monica está chegando para te fazer exercitar.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="../src/assets/bebidas - cardapio/Bebida - Milk shake - cardapio.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">Aquele do MilkShake</h5>
+                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="../src/assets/bebidas - cardapio/frappuccino.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">Aquele do Frappuccino</h5>
+                    <p class="card-text">OH MY God! Alguém segura essa bebida. Sim, ele é do sabor que você quiser. Temos tantos sabores, basta você soltar o que tem em sua mente e pedir. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="card-group">
+                  <div class="card">
+                    <img class="card-img-top" src="../src/assets/bebidas - cardapio/bebida de natal (2).jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Aquela da bebida Natalina</h5>
+                      <p class="card-text">Essa é pra você ter duas opções e uma grande energia. Não fique parado ai, Monica está chegando para te fazer exercitar.</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="../src/assets/bebidas - cardapio/bebida de natal.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Aquela bebida do Hanaoka</h5>
+                      <p class="card-text">Ross nunca esteve tão certo em comemorar tantas vezes o Hanaoka! Feliz Hanaoka! E é só pedir que nossos maravilhosos.....</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img class="card-img-top" src="../src/assets/bebidas - cardapio/bebida rosa.jpg" alt="Imagem de capa do card">
+                    <div class="card-body">
+                      <h5 class="card-title">Aquele do Unicórnio</h5>
+                      <p class="card-text">OH MY God! Alguém segura essa vitamina. Sim, ela tem frutas vermelhas, </p>
+                    </div>
+                  </div>
+                </div>
+            </section>
+           
+   <section pães>
+      <div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/pães/apple-4539873_640.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/pães/baking-1417494_640.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/pães/bread-2178874_640.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/pães/bread-2881871_640.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/pães/pastries-1738514_640.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/salgados - cardapio/comida - croassant - cardapio.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+    </div>
+  </div>
+</div>
+            </section>
+
+   <section doces>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/bolo verde.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/comida - bolo frutas vermelhas - cardapio.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/comida - brownie - cardapio.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/cake tiramisu.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/chocolate.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/cupcakes de limão.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/salada de frutas vermelhas.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/churros.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="../src/assets/doces - cardapio/comida - panetone - cardapio.jpg" alt="Imagem de capa do card">
+    <div class="card-body">
+      <h5 class="card-title">Título do card</h5>
+      <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+    </div>
+  </div>
+</div>
+<div class="card-group">
+    <div class="card">
+      <img class="card-img-top" src="../src/assets/doces - cardapio/cupcake de frutas vermelhas.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="../src/assets/doces - cardapio/pancakes.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+      </div>
+    </div>
+    <div class="card">
+      <img class="card-img-top" src="../src/assets/doces - cardapio/cokies de framboeza.jpg" alt="Imagem de capa do card">
+      <div class="card-body">
+        <h5 class="card-title">Título do card</h5>
+        <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+      </div>
+    </div>
+  </div>
+            </section>
+
+  <section salgado>
+
+            <div class="card-group">
+                <div class="card">
+                  <img class="card-img-top" src="../src/assets/salgados - cardapio/comida - salada e pão - cardapio.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">Título do card</h5>
+                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="../src/assets/salgados - cardapio/comida - hamburguer - cardapio.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">Título do card</h5>
+                    <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img class="card-img-top" src="../src/assets/salgados - cardapio/pizza.jpg" alt="Imagem de capa do card">
+                  <div class="card-body">
+                    <h5 class="card-title">Título do card</h5>
+                    <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+                  </div>
+                </div>
+            </div>
+                  <div class="card-group">
+                      <div class="card">
+                        <img class="card-img-top" src="../src/assets/salgados - cardapio/torta.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img class="card-img-top" src="../src/assets/salgados - cardapio/bowl de salada.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img class="card-img-top" src="../src/assets/salgados - cardapio/café da manha.jpg" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-group">
+                        <div class="card">
+                          <img class="card-img-top" src="../src/assets/salgados - cardapio/sopa.jpg" alt="Imagem de capa do card">
+                          <div class="card-body">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior, para demonstração.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="../src/assets/salgados - cardapio/almoco.jpg" alt="Imagem de capa do card">
+                          <div class="card-body">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <img class="card-img-top" src="../src/assets/salgados - cardapio/breakfast-2571223_640.jpg" alt="Imagem de capa do card">
+                          <div class="card-body">
+                            <h5 class="card-title">Título do card</h5>
+                            <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
+                          </div>
+                        </div>
+                      </div>
+            </section>
+
+                
+              </div>
+          </div>
+        </div>
+                                
+              </div>
+            </div>
+            
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/card 2.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title"><strong> Fique por dentro de todas as novidades</strong></h5>
+                        <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                      <label>Nome: <input type="text" name="name"  class="form-control-lg" placeholder="Nome"/></label>   
+                    </p>
+                    <p>
+                      <label>Email: <input type="email" name="email" class="form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email"/></label>
+                    </p>
+                    <p>
+                   <button type="submit" class="btn btn-secondary btn-lg btn-block">Enviar</button> 
+                    </p>
+                  </form>
+              </div>
+            </div>
+
+            <div class="card">
+              <img class="card-img-top" src="../src/assets/card 1.jpg" alt="Imagem de capa do card">
+              <div class="card-body">
+     
+
+
+
+                <h5 class="card-title"><strong> Aquele das imagens da Cafeteria</strong></h5>
+
+
+
+                <!-- Botão para acionar modal -->
+<input type="image" src="../src/assets/loja/1.jpg" alt="..." class="img-thumbnail" class="float-right" style="max-width: 49%;"data-toggle="modal" data-target="#ExemploModalCentralizado">
+</input>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <!---IMAGEM - ARRUMAR-->
+      <div class="modal-body">
+        <img class="image" src="../src/assets/loja/1g.jpg" width="470px;"> 
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+                <!-- Botão para acionar modal -->
+                <input type="image_dois" src="../Central Perk/src/assets/loja/2.jpg" alt="..." class="img-thumbnail" class="float-right" style="max-width: 49%;"data-toggle="modal" data-target="#ExemploModalCentralizado">
+              </input>
+              
+              
+              <!-- Modal -->
+              <div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="TituloModalCentralizado"></h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+              
+                    <!---IMAGEM - ARRUMAR-->
+                    <div class="modal-body">
+                      <img class="image" src="../Central Perk/src/assets/loja/2g.jpg" width="470px;"> 
+              
+              
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+                <!-- Botão para acionar modal -->
+<input type="image_tres" src="../src/assets/loja/1.jpg" alt="..." class="img-thumbnail" class="float-right" style="max-width: 49%;"data-toggle="modal" data-target="#ExemploModalCentralizado">
+</input>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <!---IMAGEM - ARRUMAR-->
+      <div class="modal-body">
+        <img class="image" src="../src/assets/loja/1g.jpg" width="470px;"> 
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Botão para acionar modal -->
+  <input type="image_quatro" src="../src/assets/loja/1.jpg" alt="..." class="img-thumbnail" class="float-right" style="max-width: 49%;"data-toggle="modal" data-target="#ExemploModalCentralizado">
+</input>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <!---IMAGEM - ARRUMAR-->
+      <div class="modal-body">
+        <img class="image" src="../src/assets/loja/1g.jpg" width="470px;"> 
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Botão para acionar modal -->
+  <input type="image_cinco" src="../src/assets/loja/1.jpg" alt="..." class="img-thumbnail" class="float-right" style="max-width: 49%;"data-toggle="modal" data-target="#ExemploModalCentralizado">
+</input>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <!---IMAGEM - ARRUMAR-->
+      <div class="modal-body">
+        <img class="image" src="../src/assets/loja/1g.jpg" width="470px;"> 
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Botão para acionar modal -->
+  <input type="image_seis" src="../src/assets/loja/1.jpg" alt="..." class="img-thumbnail" class="float-right" style="max-width: 49%;"data-toggle="modal" data-target="#ExemploModalCentralizado">
+</input>
+
+
+<!-- Modal -->
+<div class="modal fade" id="ExemploModalCentralizado" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="TituloModalCentralizado"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+      <!---IMAGEM - ARRUMAR-->
+      <div class="modal-body">
+        <img class="image" src="../src/assets/loja/6g.jpg" width="470px;"> 
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+              </div>
+            </div>
+          </div>
+          
+          
+          <section Fale conosco>
+              <div class="container">
+          <div class="card-body">
+          <h5 class="card-title">Fale Conosco</h5>
+          <form name="contact" method="POST" data-netlify="true">
+            <p>
+              <label>Nome: <input type="text" name="name" class="form-control-lg" placeholder="Nome"/></label>   
+            </p>
+            <p>
+              <label>Seu Email: <input type="email" name="email" class="form-control-lg" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email" /></label> 
+            </p>
+            <p>
+              <label>Menssagem: <input type="Message" name="message" class="form-control-lg" id="Mensagem1" placeholder="Mensagem"></label>
+            </p>
+            <p>
+              <button type="submit" class="btn btn-secondary btn-lg btn-block">Enviar</button> 
+            </p>
+          </form>
+        </div>
+      </div>
+      </section>
+
+      <body>
+
+        <footer class="footer" style="background-color: #6c757d;">  Corpyright Fabiana Oliveira
+        
+        </footer>
+
+        
+
+
+      </body>
+  
+
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
